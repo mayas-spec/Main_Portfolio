@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button onclick="document.body.classList.toggle('dark-mode')">Dark Mode</button>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile" class="hero">
+      <div class="section__pic-container">
+        <img src="assets/profile pic.jpg" alt="Maya profile picture" />
+      </div>
+      <div class="section__text hero-text">
+        <p class="section__text__p1">Hello, I am</p>
+        <h1 class="title">Maame Yaa Akoto-Sampong</h1>
+        <p class="section__text__p2">Junior Web Developer</p>
+        <div class="btn-container hero-buttons">
+          <a href="assets/Maame Yaa Akoto-Sampong CV.pdf" target="_blank" class="btn btn-color-2">View CV</a>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            CONTACT INFO
+          </button>
+        </div>
+        <div id="socials-container" class="socials">
+          <a href="https://www.linkedin.com/in/mayas256810121416" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/mayas-spec" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+  <div class="container">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h2>Experience</h2>
+          <p><strong>Data Analyst</strong><br>Olam Ghana<br><em>Jan 2025 – April 2025</em></p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h2>Education</h2>
+          <p> <strong>Bachelors Degree</strong><br>Political Science & History <br><strong>M.A Degree </strong><br>Diplomacy & Conflict Resolution </p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          I am a junior developer with a growth mindset and a passion for crafting websites that deliver exceptional user experiences. I am actively building my skills in HTML, CSS, and JavaScript, with a focus on responsive layouts and interactive features. 
+My background as a data analyst has given me a unique perspective on problem-solving and attention to detail that I apply to every coding challenge. I bring experience in analyzing user behavior patterns, working with complex datasets, and translating technical findings into actionable insights, which helps me approach web development with both analytical precision and user-focused thinking.
+Every day, I challenge myself to learn something new through hands-on projects and coding practice. I am excited to contribute to a development team where I can continue growing my technical skills while bringing fresh perspectives to meaningful web projects.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experience">
+  <div class="container">
+    <h1 class="title">SKILLS</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <div class="article-container">
+            <article style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>MySQL</h3><p>Intermediate</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Power BI</h3><p>Intermediate</p></div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Excel</h3><p>Intermediate</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Python</h3><p>Basic</p></div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <div class="article-container">
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Git</h3><p>Intermediate</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>HTML</h3><p>Basic</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>CSS</h3><p>Basic</p></div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>JavaScript</h3><p>Basic</p></div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skills-title">Soft Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Time Management</h3><p>Strong</p></div>
+            </article  style="animation-delay: 0.2s;">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Communication</h3><p>Strong</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Analytical Thinking</h3><p>Strong</p></div>
+            </article>
+            <article  style="animation-delay: 0.2s;">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div><h3>Critical Thinking</h3><p>Strong</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+      <div class="container">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="assets/rsvp form.png" alt="Project 1" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">RSVP FORM</h2>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/mayas-spec/Wedding-RSVP-form" target="_blank">Github</a>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="assets/wedding invite.png" alt="Project 2" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Wedding Invitation Card</h2>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/mayas-spec/Invitation-Card" target="_blank">Github</a>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img src="assets/airbnb.png" alt="Project 3" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Maya Homes</h2>
+              <div class="btn-container">
+                <a class="btn btn-color-2 project-btn" href="https://github.com/mayas-spec/Pension-plan" target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:maameyaaakotosampong@gmail.com">maameyaaakotosampong@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https://www.linkedin.com/in/mayas256810121416">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Copyright © 2023 MAYAS. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+document.querySelectorAll('section, article').forEach(el => {
+    el.style.animationPlayState = 'paused';
+    observer.observe(el);
+  });
+  const toggleBtn = document.getElementById('darkModeToggle');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    toggleBtn.textContent = document.body.classList.contains('dark-mode')
+      ? '☀️ Light Mode'
+      : '🌙 Dark Mode';
+  });
+</script>
+</body>
+</html>
